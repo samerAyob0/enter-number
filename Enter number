@@ -1,0 +1,17 @@
+from random import randint
+
+print("hello")
+o='y'
+while o=='y':
+    choice=int(input("enter your number(0-10):"))
+    x=randint(0,10)
+
+    if choice==x:
+      print(x)
+      print("won")
+    else:
+      print(x)
+      print("you are looser")
+      o=input("replay(y/n)?")
+  
+print("bye bye")
